@@ -1,0 +1,54 @@
+#Revision 1 BEGIN 2/15/22
+##BEGIN Ashiq Ahmed here 2/15/22
+
+import math #To perform the square root operator
+
+#Variables
+first = "ashiq" #Holds first name
+last = "AHMED" #Holds last name
+full = "" #Holds full name
+num1 = .48 #Holds the first number to use in math operations
+num2 = .63 #Holds the second number to use in math operations
+add = round((num1 + num2), 2) #Holds the addition between num1 and num2
+subtract = round((num1 - num2), 2) #Holds the subtraction between num1 and num2
+multip = round((num1 * num2), 2) #Holds the multiplication between num1 and num2
+divide = round((num1 / num2), 2) #Holds the multiplication between num1 and num2
+sq_root = round((math.sqrt(multip)), 2) #Holds the square root of multip
+month = "February" #Holds the current month
+day = 15 #Holds the day number of the current day
+
+#Use upper to make a word all capitalized and lower to make it all lowercase
+print("Hello,", first.upper(), last.lower(), "\n\n")
+
+#Store both first and last name in full with a space in between
+full = first + " " + last
+#Slice the full variable into 2 parts in the print statement; done in 1 line
+print(full[0:5], full[6:11])
+
+#Replace the last name in full with additional words
+full = full + ", Walsh College Student"
+print(full)
+
+#Print the full quote with quotation marks
+#Print double quotes by having them inside of single quotes
+#Then do the opposite to print out single quotes
+print('"Start by doing what'"'"'s necessary; then do what'"'"'s\n'
+      'possible; and suddenly you are doing the impossible\n'
+      '- Francis of Assisi"')
+
+#Print out the different mathematical operations using different print techniques
+print("The addition between", num1, "and", num2, "is", add)
+print("The subtraction between " + str(num1) + " and " + str(num2) + " is " + str(subtract))
+print(f"The multiplication between {num1} and {num2} is {multip}")
+print("The division between %s and %s is %s" % (num1, num2, divide))
+
+#Print the square root of the multip variable
+print(f"The square root of {multip} equals {sq_root}")
+
+#Print the current month and day using a different printing method than the sq_root
+print("Today is day %s of the month of %s." % (day, month))
+
+#Revision 1 END 2/15/22
+##END Ashiq Ahmed here 2/15/22
+#The Omega - Cypress International Equity Division/Manager: Ram Fujitsu/
+#Lead tech: Rich Alderman/Grant $3700
